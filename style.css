@@ -115,6 +115,9 @@ a{
   background-color: var(--color-1);
 }
 @media screen and (max-width:992px) {
+  .header-wrapper{
+    width: 90%;
+  }
   .navigation{
     display: none;
   }
@@ -183,10 +186,10 @@ a{
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
+  /* width: 90%; */
   position: absolute;
-/*   width: 80%; */
   top: 30%;
-  left: 5%;
+  left: 10%;
   color: white;
   font-size: clamp(1rem, 3vw, 3rem);
 }
@@ -204,6 +207,14 @@ a{
 #more strong{
   color: var(--color-4-font);
   font-size: 20px;
+}
+@media screen and (max-width: 992px) {
+  #welcome-h1{
+    left: 5%;
+  }
+  .welcome-txt{
+    width: 90%;
+  }
 }
 /* welcome ends-----*/
 
@@ -280,6 +291,9 @@ a{
   font-size: clamp(1rem, 2.5vw, 1.25rem);
 }
 @media screen and (max-width: 992px) {
+  .courses-wrapper, .courses-article h1{
+    width: 90%;
+  }
   .course{
     width: 47%;
   }
@@ -388,6 +402,11 @@ a{
 .white{
 	background-color: white;
 }
+@media screen and (max-width: 992px){
+  .slider-wrapper, .partners-article h1{
+    width: 90%;
+  }
+}
 @-webkit-keyframes fadeIn {  
   from {  
     opacity: 0;  
@@ -469,6 +488,11 @@ a{
   cursor: pointer;
   text-align: right;
 }
+@media screen and (max-width: 992px) {
+  .FAQs-heading, .FAQs-wrapper{
+    width: 90%;
+  }
+}
 /* faqs ends */
 /* main ends */
 
@@ -528,6 +552,11 @@ a{
 .policy-wrapper a{
   color: white;
   cursor: pointer;
+}
+@media screen and (max-width: 992px){
+  .footer-wrapper{
+    width: 90%;
+  }
 }
 @media screen and (max-width: 600px){
   .footer-wrapper{
