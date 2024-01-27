@@ -13,9 +13,6 @@ const iEl = document.querySelector('#i')
 const burgerClick=()=>{
 	navEl.classList.toggle('active')
 	headerEl.classList.toggle('header-noscroll')
-	navEl.classList=='navigation active'?
-	document.body.style.overflow = 'hidden'
-	:document.body.style.overflow = 'scroll'
 	iEl.classList == 'fa-solid fa-bars'?
 	iEl.setAttribute('class', 'fa-solid fa-x')
 	:iEl.setAttribute('class', 'fa-solid fa-bars')
