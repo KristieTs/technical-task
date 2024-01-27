@@ -184,9 +184,9 @@ a{
   -ms-flex-align: start;
   align-items: start;
   position: absolute;
-  width: 80%;
+/*   width: 80%; */
   top: 30%;
-  left: 10%;
+  left: 5%;
   color: white;
   font-size: clamp(1rem, 3vw, 3rem);
 }
